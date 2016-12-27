@@ -1,7 +1,7 @@
+n = 5
+k = 4
+a = [1,2,3,4,5]
 
-n = 15
-a = {n:1}
-
-a[15] = a[15] + 1
-
-print(a)
+b = a[k:]
+b.extend(a[:k])
+print(b)
